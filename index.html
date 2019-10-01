@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Good Website</title>
+    <link rel="stylesheet" href="main.css" type="text/css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+</head>
+<body id="bodyId">
+    <header id="Header" class="mainHeader container-fluid">
+      <div class="row">
+          <h1 class="col-sm-12 text-center headerTitle">Good Website</h1>
+      </div>
+        <div class="row headerButtons">
+                <a href="https://getbootstrap.com/docs/4.3/getting-started/introduction/" target="_blank" class="btn btn-primary col-sm-2 headerButton">Bootstrap Documentation</a>
+                <a href="https://www.w3schools.com/html/default.asp" target="_blank" class="btn btn-primary col-sm-2 headerButton">W3 Schools HTML</a>
+                <a href="https://www.w3schools.com/css/default.asp" target="_blank" class="btn btn-primary col-sm-2 headerButton">W3 Schools CSS</a>
+                <a href="https://www.w3schools.com/js/" target="_blank" class="btn btn-primary col-sm-2 headerButton">W3 Schools JavaScript</a>
+        </div>
+    </header>
+<section id="videoSection" class="jumbotron">
+    <iframe class="videoItem" width="560" height="315" src="https://www.youtube.com/embed/4K4QhIAfGKY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="videoItem" width="560" height="315" src="https://www.youtube.com/embed/3T4BsrBISnI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="videoItem" width="560" height="315" src="https://www.youtube.com/embed/LFa9fnQGb3g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+    <div class="row jsrow">
+        <button id="jsbutton" class="btn btn-primary" type="button" onclick="myFirstJS()">Click to Activate</button>
+    </div>
+    <div class="row text-center">
+        <p id="jstest" class="col-sm-12">This text can change with the click of a button</p>
+        <script src="firstJSrandomtext.js"></script>
+    </div>
+</body>
+</html>

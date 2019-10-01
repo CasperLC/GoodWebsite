@@ -1,0 +1,61 @@
+#bodyId{
+    background: url("images/backgroundtest.jpg") no-repeat center top;
+    background-size: 100% 1080px;
+}
+
+.mainHeader{
+    padding: 20px;
+}
+
+.headerButtons{
+    justify-content: center;
+}
+
+.headerButton{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgba(0,36,255,0.05) !important;
+}
+
+.headerButton:active{
+    position: relative;
+    top: 2px;
+}
+
+.headerTitle{
+    color: white;
+}
+
+#videoSection{
+    background-color: rgba(0,243,255,0.0);
+}
+
+.videoItem{
+    border: 3px solid blue;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.jumbotron{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.jsrow{
+    justify-content: center;
+}
+
+#jsbutton{
+    background-color: rgba(0,36,255,0.05) !important;
+}
+#jsbutton:active{
+    position: relative;
+    top: 2px;
+}
+
+#jstest{
+    font-size: 18px;
+    color: white;
+}
+
